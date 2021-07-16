@@ -1,0 +1,302 @@
+nav{
+    background-color: #C15B5C;
+    color: white;
+    /* font-family: 'Noto Sans JP', sans-serif; */
+}
+h1{
+    font-family: 'Ballet', cursive;
+    font-size: 4em;
+    transition-duration: 500ms;
+}
+footer{
+    background-color: #C15B5C;
+    color: white;
+}
+table, th, td {
+    /* border: 1px solid black; */
+    padding: 5px;
+  }
+tr>td {
+padding-bottom: 1em;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 25px !important;
+}
+video{
+    width: 100%;
+}
+.navbottom{
+    background-color: #60A66d;
+}
+.navtop{
+    background-color: #C15B5C;
+}
+.navlinks{
+    color: white !important;
+    text-decoration: none;
+    font-size: 1.5em;
+    transition: text-decoration 1s ease;
+}
+.navlinks:hover{
+    text-decoration: underline;
+}
+.icons{
+    max-height: 40px;
+    display: inline;
+}
+.accordion-item{
+    max-width: 835px;
+}
+.teammember{
+    max-width: 50%;
+    border-radius: 100%;
+}
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+    z-index: 1;
+}
+.carim{
+    width: 100px;
+    height: 500px;
+    object-fit: cover;
+}
+.parallax{
+    min-height: 400px;
+    background-image: url("/images/IMG_2034-1024x768.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.featueredin{
+    max-width: 250px;
+}
+.whiteback{
+    background-color: white;
+}
+.statement{
+    max-width: 30%;
+}
+.titlecard{
+    max-width: 350px;
+}
+.card{
+    border-radius: 15px;
+}
+.offwhite{
+    background-color: #F9F1F1;
+}
+.ingredients p{
+    max-width: 85%;
+}
+.teambox{
+    max-width: 75%;
+}
+table{
+    max-width: 750px;
+}
+.itemname{
+    font-weight: 700;
+    font-size: 1.25em;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+.generalText{
+    font-weight: 500;
+    font-size: 1.1em;
+}
+.optisize{
+    max-width: 70%;
+}
+.FAQ{
+    max-width: 750px;
+}
+.fullscreen{
+    height: 85vh;
+}
+.montfont{
+    font-family: 'Montserrat', sans-serif !important;
+}
+.scrolling-active{
+    font-family: 'Montserrat', sans-serif !important;
+    transition-duration: 1s;
+}
+.scrolling-active h1{
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 2.5em;
+}
+.contact-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.team{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 500px;
+    width: 600px;
+}
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 500px;
+    width: 600px;
+}
+.custom-navbar-toggler-icon img{
+    max-height: 22px;
+}
+.navbar-light .navbar-toggler{
+    color: white;
+    border-color: white;
+}
+#toggler{
+    color: white !important;
+}
+#shrunk-nav{
+    display: none;
+    margin: auto;
+}
+#bgred{
+    background-color: #C15B5C !important;
+    color: white !important;
+    position: fixed !important;
+    top: 0;
+    width: 100%;    
+    z-index: 15;
+    margin: auto;
+    overflow: hidden;
+}
+#bgred a{
+    color: white;
+}
+@media (max-width: 1400px){
+    h1{
+        font-size: 3em;
+    }
+    table, th, td {
+        /* border: 1px solid black; */
+        padding: 3px;
+      }
+    table {
+        border-collapse: separate;
+        border-spacing: 15px !important;
+    }
+}
+@media (max-width: 992px){
+    .contact-info{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 5px;
+    }
+    #leftcontact{
+        margin-top: 4px;
+        padding: 5px;
+    }
+    .mapouter{
+        width: 400px;
+        height: 375px;
+    }
+    .gmap_canvas{
+        width: 400px;
+        height: 375px
+    }
+    #mainnav{
+        display: none;
+    }
+    #shrunk-nav{
+        display: contents;
+        position: fixed !important;
+        top: 0;
+        width: 100%;
+    }
+}
+@media (max-width: 767px){
+    table, th, td {
+        /* border: 1px solid black; */
+        overflow: hidden;
+        padding: 0px;
+      }
+    table {
+        border-collapse: separate;
+        border-spacing: 0px !important;
+    }
+    nav{
+        width: 100%;
+    }
+    #banner{
+        display: none;
+    }
+    #videohero{
+        background: url('/images/sauce_still.jpg');
+        width: 100%;
+        height: max-content;
+        background-size: cover;
+    }
+    .team{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .blockquote p{
+        color: white;
+        text-shadow: 1px 1px 3px black;
+    }
+    .statement{
+        max-width: 75% !important;
+    }
+    .tg-0lax{
+        vertical-align: top;
+    }
+    .contact-info{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 5px;
+    }
+    .featueredin{
+        max-width: 125px;
+    }
+    /* .ingredients{
+        display: none;
+    } */
+    .mapouter{
+        width: 325px;
+        height: 300px;
+ 
+    }
+    .gmap_canvas{
+        width: 325px;
+        height: 300px;
+ 
+    }
+        #hours{
+        display: none;
+    }
+    #location{
+        display: none;
+    }
+    #shrunk-nav{
+        display: contents;
+        position: fixed !important;
+        top: 0;
+        width: 100%;
+    }
+    .featueredin{
+        max-width: 80px;
+    }
+    #history{
+        max-width: 95%;
+    }
+}

@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galleria Umberto</title>
+    <link rel="shortcut icon" href="/images/slice.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ballet&family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="sticky-top navbar-nav navbar-expand-lg" id="mainnav">
+        <div id="navtop" class="navtop container d-flex col justify-content-evenly container-fluid topnav">
+            <div id="hours" class="col-4 row align-items-center">
+                <p class="text-center montfont">Monday-Saturday<br>10:45am-2:30pm*<br><i>*OR UNTIL
+                        WE SELL OUT</i></p>
+            </div>
+            <div id="links" class="col-4 d-flex row justify-content-evenly">
+                <div id="name" class="navbar-brand">
+                    <h1 class="text-center pt-3">Galleria Umberto</h1>
+                </div>
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navlinks" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="navlinks"
+                    class="d-flex col justify-content-around align-items-center montfont collapse navbar-collapse">
+                    <a href="#menu" class="text-uppercase navlinks mx-3" id="menulink">menu</a>
+                    <a href="#about" class="text-uppercase navlinks mx-3" id="aboutlink">about</a>
+                    <a href="#history" class="text-uppercase navlinks mx-3" id="orderlink">contact</a>
+                </div>
+            </div>
+            <div id="location" class="col-4 row align-items-center">
+                <p class="text-center montfont">289 Hanover St.,<br>Boston, MA 02113</p>
+            </div>
+        </div>
+        <div id="" class="navbottom d-flex  justify-content-center">
+            <div id="call" class="mt-2 align-items-end">
+                <h2 class="text-center montfont"><img src="/images/telephone.png" alt="" class="icons"> Call
+                    617-227-5709</h2>
+                <p class="text-center montfont"><i>Take-out or Dine-in CASH ONLY</i></p>
+            </div>
+        </div>
+    </nav>
+    <nav id="shrunk-nav" class="sticky-top navtop navbar navbar-expand-lg navbar-light" style="margin: auto">
+        <div id="bgred" class="container-fluid" style="margin: auto">
+            <a class="navbar-brand text-uppercase montfont" href="#">Galleria Umberto</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span id="toggler" class="custom-navbar-toggler-icon"><img src="/images/hamburger.png"></span>
+            </button>
+            <div class="collapse navbar-collapse nav-links" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#menu">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#history">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="videohero">
+        <video id="banner" poster="/images/sauce_still.jpg" autoplay loop muted>
+            <source src="/images/ezgif.com-gif-maker.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="container p-5">
+            <div id="carouselContent" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item text-center active" data-bs-interval=" 4000">
+                        <figure>
+                            <blockquote class="blockquote">
+                                <p>Amazing Sicilian pizza. The sauce was chunky, the cheese was thick, and the ends were
+                                    perfectly crisped.
+                                </p>
+                            </blockquote>
+                            <figcaption class="blockquote-footer">
+                                <cite title="Source Title">Andrew Knight</cite>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="carousel-item text-center" data-bs-interval=" 4000">
+                        <figure>
+                            <blockquote class="blockquote">
+                                <p>Fantastic pizza…you will not find pizza like this outside the northeast so bring some
+                                    cash and savor.
+                                </p>
+                            </blockquote>
+                            <figcaption class="blockquote-footer">
+                                <cite title="Source Title">Barbara Gunion</cite>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="carousel-item text-center" data-bs-interval=" 4000">
+                        <figure>
+                            <blockquote class="blockquote">
+                                <p>Best place ever been coming here since I was a kid. Pizza and panzarotti are the
+                                    best. Staff is very nice and welcoming!</p>
+                            </blockquote>
+                            <figcaption class="blockquote-footer">
+                                <cite title="Source Title">Alicia Finn</cite>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="carousel-item text-center" data-bs-interval=" 4000">
+                        <figure>
+                            <blockquote class="blockquote">
+                                <p>Excellent arancini. The sole strip of pizza that I had was also very good. I've been
+                                    coming here for of fifty years. It never disappoints.</p>
+                            </blockquote>
+                            <figcaption class="blockquote-footer">
+                                <cite title="Source Title">Michael M.</cite>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="carousel-item text-center" data-bs-interval=" 4000">
+                        <figure>
+                            <blockquote class="blockquote">
+                                <p>There isn't anything that is just ok...everything is the best and you won't find
+                                    better anywhere else.</p>
+                            </blockquote>
+                            <figcaption class="blockquote-footer">
+                                <cite title="Source Title">Marie DePaolis</cite>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="my-3 whiteback">
+        <div class="container my-5">
+            <div>
+                <h3 class="text-center montfont">Featured In</h3>
+            </div>
+            <div class="d-flex col justify-content-evenly align-items-center">
+                <div><img class="featueredin" src="/images/Zagat_logo.png" alt="Zagat Logo"></div>
+                <div><img class="featueredin" src="/images/eater.png" alt="Eater Logo"></div>
+                <div><img class="featueredin" src="/images/Time-Out-logo.png" alt="Time-Out Logo"></div>
+            </div>
+        </div>
+    </section>
+    <section id="menu" class="img-full parallax-window d-flex align-items-center justify-content-center"
+        data-parallax="scroll" data-image-src="/images/tiffany-chan-lT2hiMUACco-unsplash.jpg">
+        <!-- <div class="card d-flex row mx-5"> -->
+        <div class="container my-5 p-3">
+            <div class="d-flex col justify-content-center my-5">
+                <div class="montfont card statement p-3">
+                    <h2 class="text-center montfont">Our Menu</h2>
+                    <p class="text-center generalText">We are a scratch-only kitchen, cooked fresh daily.
+                        <br>We are a cash-only business.
+                    </p>
+                </div>
+            </div>
+            <div class="card my-2" id="menu-card">
+                <h2 class="text-uppercase montfont text-center mt-4">Dine-in or TakeOut</h2>
+                <table class=" center montfont">
+                    <tbody>
+                        <tr>
+                            <td class="tg-0lax itemname text-uppercase">Pizza</td>
+                            <td class="tg-0lax text-upper generalText ingredients">Mozzerella, Cheddar, Provolone, &amp;
+                                Romano
+                                cheese blend</td>
+                            <td class="tg-0lax">
+                                <p class="itemname line m-0">$1.70</p>
+                                <p class="m-0"><i>*Per Slice</i></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tg-0lax itemname text-uppercase">Panini</td>
+                            <td class="tg-0lax generalText ingredients">Salami, Ham, &amp; Cheese</td>
+                            <td class="tg-0lax itemname">$2.25</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-0lax itemname text-uppercase">Panzerotti</td>
+                            <td class="tg-0lax generalText mx-5 ingredients">Breaded potato with mozzerella cheese &amp;
+                                parsely
+                                inside</td>
+                            <td class="tg-0lax itemname">$1.45</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-0lax itemname text-uppercase">Arancini</td>
+                            <td class="tg-0lax generalText ingredients">Breaded ball of rice stuffed with a sauce filed
+                                with
+                                ground beef,
+                                peas,
+                                &amp; cheese</td>
+                            <td class="tg-0lax itemname">$3.00</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-0lax itemname text-uppercase">Calzones</td>
+                            <td class="tg-0lax generalText ingredients">Spinach</td>
+                            <td class="tg-0lax itemname">$4.25</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-0lax"></td>
+                            <td class="tg-0lax generalText ingredients">Spinach &amp; Cheese</td>
+                            <td class="tg-0lax itemname">$4.50</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-0lax"></td>
+                            <td class="tg-0lax generalText ingredients">Spinach, Cheese, &amp; Ricotta</td>
+                            <td class="tg-0lax itemname">$4.75</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-0lax"></td>
+                            <td class="tg-0lax generalText ingredients">Ricotta, Ham, &amp; Salami</td>
+                            <td class="tg-0lax itemname">$4.25</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!-- </div> -->
+        </div>
+    </section>
+    <section id="carousel" class="my-5 whiteback">
+        <div class="container my-5">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/images/artur-rutkowski-4yzEtTQLdL4-unsplash.jpg" class="d-block w-100 carim"
+                            alt="Two hands holding a ball of dough with a black background">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images/dima-shevchik-4rxDkjHIpaY-unsplash.jpg" class="d-block w-100 carim"
+                            alt="A bicycle parked on the cobblestoned streets of Boston">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images/IMG_6117.webp" class="d-block w-100 carim"
+                            alt="A line to the counter in Galleria Umberto.">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="whiteback my-5">
+        <div class="container d-flex justify-content-center my-5">
+            <div class="d-flex row justify-content-center optisize">
+                <h2 class="montfont">Our History</h2>
+                <p class="generalText montfont">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam
+                    voluptatibus
+                    voluptates nulla, quia
+                    natus
+                    magni sunt ipsum fuga atque saepe laudantium aut perspiciatis? Eaque animi dolore laboriosam.
+                    Magnam,
+                    iure cum.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quidem harum cupiditate
+                    deleniti
+                    nam maxime impedit in voluptatem a culpa rerum esse assumenda, ut illo unde omnis necessitatibus
+                    magni sunt ipsum fuga atque saepe laudantium aut perspiciatis? Eaque animi dolore laboriosam.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container my-5">
+            <div>
+                <h3 class="text-center">Featured In</h3>
+            </div>
+            <div class="d-flex col justify-content-evenly align-items-center">
+                <div><img class="featueredin" src="/images/Zagat_logo.png" alt="Zagat Logo"></div>
+                <div><img class="featueredin" src="/images/eater.png" alt="Eater Logo"></div>
+                <div><img class="featueredin" src="/images/Time-Out-logo.png" alt="Time-Out Logo"></div>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="my-5">
+        <div class="container">
+            <div>
+                <h2 class="text-uppercase my-5 montfont">Meet the Team</h2>
+            </div>
+            <!-- <div id="team-members" class="d-flex col justify-content-md-between montfont"> -->
+            <div id="team-members" class="team montfont">
+                <div class="">
+                    <div class="d-flex row justify-content-center">
+                        <img class="teammember shadow" src="/images/teammember.png"
+                            alt="Temporary silhouette until team member photo can be added.">
+                        <div class="card p-2 teambox my-4 shadow">
+                            <h2 class="montfont">First Lastname</h2>
+                            <p class="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam veritatis
+                                illo obcaecati
+                                nesciunt ratione accusantium illum soluta iure cupiditate nobis minus architecto
+                                pariatur
+                                eveniet itaque sunt dignissimos nostrum, optio temporibus!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="d-flex row justify-content-center">
+                        <img class="teammember shadow" src="/images/teammember.png"
+                            alt="Temporary silhouette until team member photo can be added.">
+                        <div class="card p-2 teambox my-4 shadow">
+                            <h2 class="montfont">First Lastname</h2>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam veritatis illo obcaecati
+                                nesciunt ratione accusantium illum soluta iure cupiditate nobis minus architecto
+                                pariatur
+                                eveniet itaque sunt dignissimos nostrum, optio temporibus!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="d-flex row justify-content-center">
+                        <img class="teammember shadow" src="/images/teammember.png"
+                            alt="Temporary silhouette until team member photo can be added.">
+                        <div class="card p-2 teambox my-4 shadow">
+                            <h2 class="montfont">First Lastname</h2>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam veritatis illo obcaecati
+                                nesciunt ratione accusantium illum soluta iure cupiditate nobis minus architecto
+                                pariatur
+                                eveniet itaque sunt dignissimos nostrum, optio temporibus!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="history" class="">
+        <div class="container contact-info">
+            <div id="leftcontact" class="montfont">
+                <div id="hours-bottom">
+                    <h2>Hours of Operation</h2>
+                    <p class="text-uppercase">Open 10:45am-2:30pm EST* <br><i>*or until we sell out</i></p>
+                    <p>Closed every July for vacation</p>
+                </div>
+                <div id="visit" class="col-sm-10">
+                    <h2>Visit Us</h2>
+                    <div id="address">
+                        <h3><img src="/images/location.png" class="icons" alt="Location Icon">289 Hanover St, Boston MA,
+                            02113</h3>
+                        <p>We are located in Boston's North End.<br> You can also enjoy the nearby favorites</p>
+                        <div>
+                            <p><img class="icons" src="/images/walking.png" alt="Walking icon"><i>A 5 minute walk from
+                                    Paul
+                                    Revere's historic house</i></p>
+                            <p><img class="icons" src="/images/walking.png" alt="Walking icon"><i>A 5 minute walk from
+                                    Paul
+                                    Revere's historic house</i></p>
+                        </div>
+                    </div>
+                </div>
+                <div id="inquiries">
+                    <h3>For business inquiries</h3>
+                    <a href="mailto:contact@galleriaumbertonorthend.com" class=""
+                        target="_blank">contact@GalleriaUmbertoNorthEnd.com</a>
+                </div>
+            </div>
+            <div id="contactmap" class="shadow">
+                <div class="mapouter">
+                    <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas"
+                            src="https://maps.google.com/maps?q=289%20hanover%20st,%20Boston%20MA&t=&z=19&ie=UTF8&iwloc=&output=embed"
+                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                            href="https://fmovies-online.net">fmovies bz</a><br>
+                        <a href="https://www.embedgooglemap.net">embedgooglemap.net</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="faq">
+        <div class="container d-flex col justify-content-center FAQ my-5">
+            <div class="row d-flex justify-content-center montfont">
+                <h2>Frequently Asked Questions (FAQs)</h2>
+                <div>
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                    So do you offer delivery?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>I'm afraid not. We currently do not offer delivery. You're welcome to call ahead
+                                        and we'll put something aside for you.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Do you accept credit cards?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Galleria Umberto is a cash-only business. We currently do not accept credit cards,
+                                    debit cards,
+                                    Apple Pay, or Venmo. Fortunately, there is an ATM located nearby at ____.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    What are your hours of operation?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Galleria Umberto is opens at 10:45am Monday-Saturday and closes at 2:30pm or when we
+                                    run out of food. Whichever comes first.
+                                    Galleria Umberto also remains closed for the month of July every summer.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Where are you located?
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Galleria Umberto is located in the North End of Boston at 289 Hanover St a short
+                                    five minute walk from Paul Revere's historic home.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="rights">
+        <div class="d-flex col justify-content-center">
+            <div>
+                <h2 class="text-uppercase">Galleria Umberto</h2>
+                <p>©2020 Galleria Umberto. All rights reserved</p>
+            </div>
+        </div>
+    </section>
+    <footer id="footer" class="mt-5">
+        <div class="d-flex col justify-content-between align-items-center container montfont">
+            <div class="d-flex col">
+                <div><img class="icons m-2" src="/images/facebook.png" alt="facebook link"></div>
+                <div><img class="icons m-2" src="/images/instagram.png" alt="instagram link"></div>
+            </div>
+            <div>
+                <img src="" alt="">
+                <p class="text-uppercase montfont"><img src="/images/telephone.png" alt="Phone icon" class="icons">
+                    Take-out
+                    617-227-5709</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="parallax.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
